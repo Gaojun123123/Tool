@@ -19,11 +19,13 @@ sign off : 添加签名信息，这是可选的 。签名了代表有责任了�
 
 git fetch :从远程分支拉去最新的更新 
 
-git pull : 从远程拉取并与本地的合并。
 
 
+git merge :将两次提交进行合并。
 
+git pull ：拉取最新的更新并且和本地合并
 
+因此 git pull = git fetch + git merge
 
 
 
